@@ -13,11 +13,11 @@ const Home = () => {
           />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/80 rounded-md p-4 text-center text-[8px] xs:text-[10px] sm:text-[15px] md:text-[18px] lg:text-[18px]">
+            <div className="bg-white/80 rounded-md m-4 p-4 text-center text-[8px] xs:text-[10px] sm:text-[15px] md:text-[18px] lg:text-[18px]">
               <h1 className="font-bold z-10">
                 <div className="inline p-2 rounded-md bg-violet-500">
                   <span className="text-black">
-                    FAST <span className="text-white">/// </span>
+                    FAST <span className="text-white">&#47;&#47;&#47; </span>
                     <span className="text-amber-400">PROGRAMMING </span>
                   </span>
                 </div>
@@ -33,7 +33,7 @@ const Home = () => {
       </div>
 
       <section className="  flex flex-col lg:flex-row ">
-        <div className=" flex text-center order-1  m-2 mt-0 md:m-2 lg:mb-2 lg:mx-0 lg:mt-0 lg:ml-2  lg:w-1/4">
+        <div className=" flex text-center order-2 lg:order-1  m-2 mt-0 md:m-2 lg:mb-2 lg:mx-0 lg:mt-0 lg:ml-2  lg:w-1/4">
           <p className=" p-2 bg-violet-300 text-black justify-center rounded-md w-full h-full">
             🔥 <span className="font-bold text-[20px]">Powerful Backend: </span>
             <br />
@@ -72,19 +72,21 @@ const Home = () => {
           </p>
         </div>
 
-        <div className=" flex text-center z-0  items-center  bg-violet-300  order-3 lg:order-2 m-2 mt-0 md:m-2 md:mt-0 lg:mb-2 lg:mt-0 lg:mx-2 ">
-          <p className=" p-8 bg-violet-500 text-white justify-center rounded-md w-full h-full">
-            <br />
-            🔧
-            <span className="font-bold text-[20px]">
-              PARA INSTALAR Y USAR
+        <div className=" flex text-center z-0  items-center  bg-violet-300  order-1 lg:order-2 m-2 mt-0 md:m-2 md:mt-0 lg:mb-2 lg:mt-0 lg:mx-2 ">
+          <div className="p-2 lg:p-8 bg-violet-500 text-white justify-center rounded-md w-full h-full">
+            <p>
               <br />
-              fastprogramming.
-            </span>
-            <br />
-            <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+              🔧
+              <span className="font-bold text-[20px]">
+                PARA INSTALAR Y USAR
+                <br />
+                fastprogramming.
+              </span>
+              <br />
+              <br />
+              <br />
+            </p>
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 1. Instalar Node.js
                 <br />
@@ -96,8 +98,7 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 2. Crear un nuevo proyecto de Node.js
                 <br />
@@ -115,8 +116,7 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 3. Inicializar el proyecto de Node.js
                 <br />
@@ -133,8 +133,7 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 4. Instalar la librería.
                 <br />
@@ -146,10 +145,8 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
-              <div className="p-4">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
+              <div className="w-full h-full p-2  lg:p-4">
                 5. Para usar la librería.
                 <br />
                 <br />
@@ -165,9 +162,16 @@ const Home = () => {
                 quieres que tenga tu proyecto:
                 <br />
                 <br />
-                const fastprogramming = require('fastprogramming');
-                fastprogramming.initializeProject('my-new-project');
+                <span className=" text-[10px] xs:text-[15px]">
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
+                  const fastprogramming = require('fastprogramming');
+                </span>
                 <br />
+                <br />
+                <span className=" text-[10px] xs:text-[15px]">
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
+                  fastprogramming.initializeProject('my-new-project');
+                </span>
                 <br />
                 <br />
                 b. Define el punto de entrada en el archivo package.json.
@@ -178,29 +182,33 @@ const Home = () => {
                 incluir:
                 <br />
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "start": "node fast-index.js"
                 <br />
                 <br />
                 copia ese codigo y pegalo en la parte que dice,
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "scripts":
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "start": "node fast-index.js"
                 <br />
                 <br />
                 En la parte donde dice:
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "main": "index.js",
                 <br />
                 reemplazalo con:
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "main": "fast-index.js",
               </div>
             </div>
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 6. Ejecutar el script.
                 <br />
@@ -222,7 +230,6 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
             ------
             <br />
             FELICITACIONES
@@ -232,7 +239,6 @@ const Home = () => {
             ------
             <br />
             <br />
-            <br />
             Ahora tienes instalada todos los archivos de tu backend y tu
             frontend.
             <br />
@@ -240,12 +246,12 @@ const Home = () => {
             entre si, sigue estos pasos:
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
                 Para usar el backend.
                 <br />
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 En la carpeta "backend" busca el archivo .env, sino está, crea
                 un archivo con ese nombre.
                 <br />
@@ -264,6 +270,7 @@ const Home = () => {
                 <br />
                 En el terminal escribe:
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 cd "nombre de tu proyecto"
                 <br />
                 cd backend
@@ -275,7 +282,6 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
             ------
             <br />
             Listo! Ya tienes el backend.
@@ -284,9 +290,8 @@ const Home = () => {
             <br />
             <br />
             <br />
-            <br />
-            <div className="flex justify-center rounded-lg bg-black/80 mx-32">
-              <div className="p-4">
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
+              <div className="p-4 max-w-full">
                 Para usar el frontend.
                 <br />
                 <br />
@@ -297,17 +302,26 @@ const Home = () => {
                 que dice:
                 <br />
                 <br />
-                axios .get 'http://localhost:3000/api/v1/posts',..
+                <span className="text-[10px] xs:text-[15px]">
+                  {" "}
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
+                  axios .get 'http://localhost:3000/api/v1/posts',..{" "}
+                </span>
                 <br />
                 <br />
                 son las solicitudes desde tu frontend hacia tu backend, por
-                defecto se usa el servidor "local localhost" y el puerto 3000.
-                tendras que ajustarlo segun el servidor que quieres usar y el
-                puerto que configuraste en tu backend.
+                defecto se usa el servidor
+                <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                "local localhost"
+                <br />
+                y el puerto 3000. tendras que ajustarlo segun el servidor que
+                quieres usar y el puerto que configuraste en tu backend.
                 <br />
                 <br />
                 En el terminal escribe:
                 <br />
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 cd "nombre de tu proyecto"
                 <br />
                 cd frontend
@@ -319,7 +333,6 @@ const Home = () => {
                 npm run dev
               </div>
             </div>
-            <br />
             <br />
             <br />
             ------
@@ -337,15 +350,40 @@ const Home = () => {
             pevallos1965@gmail.com
             <br />
             <br />
-            <br />
-            <br />
             EXITOS.........
             <br />
             <br />
-          </p>
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
+              <div className="p-4">
+                💖 <span className="font-bold">Thanks and Donations. </span>
+                <br />
+                If FastProgramming has been useful to you and you want to
+                support us, please consider making a donation. Every
+                contribution helps us improve and maintain this project for the
+                community.
+                <br />
+                <br />
+                Invite me to a coffee.
+                <br />
+                <br />
+                <div className="inline font-bold">
+                  <a
+                    href="https://www.paypal.com/ncp/payment/EAWBRGCBLG8PC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-yellow-500 text-white p-2 rounded-md"
+                  >
+                    👉 Make a Donation,
+                  </a>
+                  <br />
+                </div>
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="flex text-center order-2 lg:order-3  mx-2 mb-2 md:mx-2 md:mb-2 lg:ml-0 lg:mr-2 lg:w-1/4">
+        <div className="flex text-center order-3  mx-2 mb-2 md:mx-2 md:mb-2 lg:ml-0 lg:mr-2 lg:w-1/4">
           <p className=" p-2 bg-violet-300 text-black justify-center rounded-md w-full h-full">
             🎉 <span className="font-bold text-[20px]"> Modern Frontend: </span>
             <br />

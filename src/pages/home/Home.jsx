@@ -1,5 +1,6 @@
 import "./home.css";
 import Zamora from "./../../assets/imagenes-sin-copyright-gratis.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -84,7 +85,7 @@ const Home = () => {
         </div>
 
         <div className=" flex text-center z-0  items-center  bg-violet-300  order-3 lg:order-2 m-2 mt-0 md:m-2 md:mt-0 lg:mb-2 lg:mt-0 lg:mx-2 ">
-          <p className=" p-2 bg-violet-300 text-black justify-center rounded-md w-full h-full">
+          <div className=" p-2 bg-violet-300 text-black justify-center rounded-md w-full h-full">
             <br />
             🚀 <span className="font-bold text-[30px]">Start in Minutes! </span>
             <br />
@@ -130,23 +131,49 @@ const Home = () => {
             <br />
             <br />
             <br />
+            <hr className="border-t-2 border-gray-400 max-w-[600px] mx-auto my-4"></hr>
             <br />
+            <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
+              <div className="p-4 text-white">
+                <p>
+                  💖 <span className="font-bold">Thanks and Donations. </span>
+                  <br />
+                  <br />
+                  If FastProgramming has been useful to you and you want to
+                  support us, please consider making a donation. Every
+                  contribution helps us improve and maintain this project for
+                  the community.
+                  <br />
+                  <br />
+                  Invite me to a coffee.
+                  <br />
+                  <br />
+                </p>
+
+                <div className="inline font-bold">
+                  <a
+                    href="https://www.paypal.com/ncp/payment/EAWBRGCBLG8PC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-yellow-500 text-white p-2 rounded-md"
+                  >
+                    👉 Make a Donation,
+                  </a>
+                  <br />
+                </div>
+                <br />
+                <br />
+              </div>
+            </div>
             <br />
-            <br />
-            <br />
-            <hr class="border-t-2 border-gray-400 max-w-[600px] mx-auto my-4"></hr>
-            <br />
-            💖 <span className="font-bold">Thanks and Donations. </span>
-            <br />
-            If FastProgramming has been useful to you and you want to support
-            us, please consider making a donation. Every contribution helps us
-            improve and maintain this project for the community.
-            <br />
-            👉 Make a Donation, invite me to a coffee.
-            <br />
-            <br />
-            <br />
-          </p>
+            <div className=" m-4 ">
+              <li className="text-white inline rounded-md bg-blue-500 font-bold p-2">
+                <Link className="text-white  font-bold" to="/documentation">
+                  Ir a DOCUMENTATION
+                </Link>
+              </li>
+            </div>
+          </div>
         </div>
 
         <div className="flex text-center order-2 lg:order-3  mx-2 mb-2 md:mx-2 md:mb-2 lg:ml-0 lg:mr-2 lg:w-1/4">
