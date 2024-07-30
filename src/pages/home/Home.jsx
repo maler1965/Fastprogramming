@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <div className=" relative z-0 flex flex-col justify-center m-2 xs:m-2 sm:m-2 md:mx-2 md:my-0 lg:m-2 lg:w-full ">
+        <div className="relative z-0 flex flex-col justify-center m-2 xs:m-2 sm:m-2 md:mx-2 md:my-0 lg:m-2 lg:w-full">
           <img
             className="object-cover rounded-md w-full md:w-full md:max-h-[500px] md:mt-2 lg:w-full lg:-m-2 lg:p-2 lg:max-h-[500px] mx-auto"
             src={Zamora}
@@ -14,31 +14,32 @@ const Home = () => {
           />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/70 rounded-md p-4 text-center text-[8px] xs:text-[10px] sm:text-[15px] md:text-[18px] lg:text-[18px]">
+            <div className="bg-white/70 rounded-md p-4 text-center text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl">
               <h1 className="font-bold z-10">
                 🎉 ¡WE PRESENT{" "}
                 <span className="text-violet-600">FASTPROGRAMMING</span> ! 🚀
-                <br />
-                <br />
+              </h1>
+              <div className="mt-4">
                 Are you looking for a quick and
                 <br />
                 efficient way to start your next web project?
-                <br />
-                <br />
+              </div>
+              <div className="mt-4">
                 You have the{" "}
                 <span className="text-blue-600">backend and frontend,</span>
                 <br />
                 fully functional and listed for use.
-                <br />
+              </div>
+              <div className="mt-4">
                 With <span className="text-violet-600">FASTPROGRAMMING</span>,
-                You have everything you need
+                you have everything you need
                 <br />
                 to create a complete website.
-                <br />
-                <br />
-                <span className="text-violet-600">FASTPROGRAMMING</span>, It is
-                an easy to install library.
-              </h1>
+              </div>
+              <div className="mt-4">
+                <span className="text-violet-600">FASTPROGRAMMING</span> is an
+                easy-to-install library.
+              </div>
             </div>
           </div>
         </div>
