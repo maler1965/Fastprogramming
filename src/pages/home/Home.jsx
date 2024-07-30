@@ -169,7 +169,7 @@ const Home = () => {
             <div className=" m-4 ">
               <li className="text-white inline rounded-md bg-blue-500 font-bold p-2">
                 <Link className="text-white  font-bold" to="/documentation">
-                  Ir a DOCUMENTATION
+                  Go to DOCUMENTATION
                 </Link>
               </li>
             </div>
