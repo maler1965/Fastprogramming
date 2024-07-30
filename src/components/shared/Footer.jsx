@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import "./styles/footer.css";
 
 export const Footer = () => {
@@ -11,7 +11,7 @@ export const Footer = () => {
   */
 
   return (
-    <footer className=" ">
+    <footer>
       <div className="bg-black mx-2">
         <div className="">
           <p className=" text-blue-900 text-[20px] font-bold mx-4">
@@ -29,7 +29,7 @@ export const Footer = () => {
             <p className="text-[10px]  m-2"> Copyright &copy; 2024; </p>
             <p className="flex items-center m-2 font-bold text-[10px] md:text-[15px] lg:text-[20px]">
               <span className="text-black text-[10px]">FAST </span>
-              <span className="text-[10px]">///</span>
+              <span className="text-[10px]">&#47;&#47;&#47;</span>
               <span className="text-amber-500 text-[10px]">programming</span>
             </p>
           </div>

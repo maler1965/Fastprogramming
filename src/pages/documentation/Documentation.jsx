@@ -24,8 +24,8 @@ const Home = () => {
                 🚀
                 <br />
                 <br />
-                Para que puedas usar la librería fastprogramming, aquí tienes
-                una guía paso a paso que debes seguir.
+                So you can use the fastprogramming library, here you go A step
+                by step guide that you must follow.
               </h1>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Home = () => {
               <br />
               🔧
               <span className="font-bold text-[20px]">
-                PARA INSTALAR Y USAR
+                TO INSTALL AND USE
                 <br />
                 fastprogramming.
               </span>
@@ -88,26 +88,25 @@ const Home = () => {
             </p>
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                1. Instalar Node.js
+                1. Install Node.js
                 <br />
                 <br />
-                Asegúrate de que tengas instalado Node.js en tu sistema.
+                Make sure you have Node.js installed on your system.
                 <br />
-                Pueden descargarlo desde nodejs.org.
+                You can download it from nodejs.org.
               </div>
             </div>
             <br />
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                2. Crear un nuevo proyecto de Node.js
+                2. Create a new Node.js project
                 <br />
                 <br />
-                Crea una nueva carpeta para tu proyecto y navega hasta ella en
-                la terminal.
+                Create a new folder for your project and navigate to it in the
+                terminal.
                 <br />
-                Usando estos comandos o de la manera en que estas acostumbrado a
-                crear carpetas:
+                Using these commands or the way you are used to create folders:
                 <br />
                 mkdir my-new-project
                 <br />
@@ -118,15 +117,14 @@ const Home = () => {
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                3. Inicializar el proyecto de Node.js
+                3. Initialize the Node.js project
                 <br />
                 <br />
-                Inicializa un nuevo proyecto de Node.js usando:
+                Initialize a new Node.js project using:
                 <br />
                 npm init
                 <br />
-                o para omitir las preguntas y usar los valores predeterminados,
-                usa:
+                or to skip the questions and use the default values, uses:
                 <br />
                 npm init -y
               </div>
@@ -135,10 +133,10 @@ const Home = () => {
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                4. Instalar la librería.
+                4. Install the library.
                 <br />
                 <br />
-                Para instalar la librería desde npm usa el siguiente comando:
+                To install the library from npm use the following command:
                 <br />
                 npm install fastprogramming
               </div>
@@ -147,19 +145,19 @@ const Home = () => {
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="w-full h-full p-2  lg:p-4">
-                5. Para usar la librería.
+                5.To use the library.
                 <br />
                 <br />
-                Crea el archivo fast-index.js, en la raiz de tu proyecto, para
-                configurar el proyecto, sigue estos pasos:
+                Create the file fast-index.js, at the root of your project, to
+                configure the project, follow these steps:
                 <br />
                 <br />
-                a. Crear fast-index.js
+                a. Create fast-index.js
                 <br />
                 <br />
-                Crea un archivo llamado fast-index.js, y escribe el siguiente
-                código, y donde dice my-new-project, escribe el nombre que
-                quieres que tenga tu proyecto:
+                Create a file called fast-index.js, and write the following
+                code, and where it says my-new-project, write the name that you
+                want your project to have:
                 <br />
                 <br />
                 <span className=" text-[10px] xs:text-[15px]">
@@ -174,19 +172,18 @@ const Home = () => {
                 </span>
                 <br />
                 <br />
-                b. Define el punto de entrada en el archivo package.json.
+                b. Defines the entry point in the package.json file.
                 <br />
                 <br />
-                Asegúrate de que el archivo fast-index.js sea el punto de
-                entrada del proyecto. Debes editar el archivo package.json para
-                incluir:
+                Make sure the fast-index.js file is the point of project entry.
+                You must edit the package.json file to include:
                 <br />
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "start": "node fast-index.js"
                 <br />
                 <br />
-                copia ese codigo y pegalo en la parte que dice,
+                copy this code and paste it in the part that says,
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "scripts":
@@ -195,12 +192,12 @@ const Home = () => {
                 "start": "node fast-index.js"
                 <br />
                 <br />
-                En la parte donde dice:
+                In the part where it says:
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "main": "index.js",
                 <br />
-                reemplazalo con:
+                replace it with:
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "main": "fast-index.js",
@@ -210,68 +207,67 @@ const Home = () => {
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                6. Ejecutar el script.
+                6.Run the script.
                 <br />
                 <br />
-                Finalmente, puedes ejecutar el script para inicializar tu
-                proyecto con los archivos y configuraciones proporcionadas por
-                la librería fastprogramming, en tu terminal escribe:
+                Finally, you can run the script to initialize your project with
+                the files and settings provided by the fastprogramming library,
+                in your terminal write:
                 <br />
                 <br />
                 npm start
                 <br />
                 <br />
-                Al hacer enter, se comenzara a instalar la libreria
-                fastprogramming.
+                When you press enter, the fast programming library begins to be
+                installed.
                 <br />
-                Revisa el archivo package.json, en las dependencias, para
-                confirmar que esta instalada la libreria.
+                Check the package.json file, in the dependencies, to Confirm
+                that the library is installed.
               </div>
             </div>
             <br />
             <br />
             ------
             <br />
-            FELICITACIONES
+            CONGRATULATIONS
             <br />
-            ya tienes instalada la libreria.
+            You already have the library installed.
             <br />
             ------
             <br />
             <br />
-            Ahora tienes instalada todos los archivos de tu backend y tu
-            frontend.
+            Now you have all your backend files installed and your frontend.
             <br />
-            Pero necesitas configurarlos para que funcionen y se comuniquen
-            entre si, sigue estos pasos:
+            But you need to configure them to work and communicate each other,
+            follow these steps:
             <br />
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4">
-                Para usar el backend.
+                To use the backend.
                 <br />
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                En la carpeta "backend" busca el archivo .env, sino está, crea
-                un archivo con ese nombre.
+                In the "backend" folder look for the .env file, if it is not
+                there, create a file with that name.
                 <br />
-                Luego ve al archivo .env.template y copia todo lo que tiene y
-                pegalo en el archivo .env que acabas de crear, y en el archivo
-                .env llena con tus datos cada una de las variables de entorno.
-                <br />
-                <br />
-                Usa tus credenciales de tu cuenta de JWT (JSON Web Tokens) para
-                la seguridad, y de tu cuenta de Firebase (Almacenamiento de
-                imagenes y servicios de autenticación), o contrasenas de tu base
-                de datos postgres, el puerto que quieres usar para el backend,
-                en el archivo server.js se está usando el puerto 3000, puedes
-                usar ese u otro que prefieras, etc.
+                Then go to the .env.template file and copy everything it has and
+                paste it into the .env file you just created, and into the file
+                .env fills each of the environment variables with your data.
                 <br />
                 <br />
-                En el terminal escribe:
+                Use your JWT (JSON Web Tokens) account credentials to security,
+                and your Firebase account (Image storage and authentication
+                services), or passwords for your base postgres data port, the
+                port you want to use for the backend, in the server.js file port
+                3000 is being used, you can use that one or another one you
+                prefer, etc.
+                <br />
+                <br />
+                In the terminal write:
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                cd "nombre de tu proyecto"
+                cd "name of your project"
                 <br />
                 cd backend
                 <br />
@@ -284,7 +280,7 @@ const Home = () => {
             <br />
             ------
             <br />
-            Listo! Ya tienes el backend.
+            Ready! You already have the backend.
             <br />
             ------
             <br />
@@ -292,14 +288,13 @@ const Home = () => {
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
               <div className="p-4 max-w-full">
-                Para usar el frontend.
+                To use the frontend.
                 <br />
                 <br />
-                Ajusta los archivos para que funcionen con el servidor que estes
-                usando y el puerto que configuraste en tu backend para que el
-                frontend este escuchando por ese puerto. Por ejemplo, ve al
-                archivo posts.slice.js en la carpeta store/slices y en la parte
-                que dice:
+                Adjust the files to work with the server you are on using and
+                the port you configured in your backend so that the frontend is
+                listening on that port. For example, go to posts.slice.js file
+                in the store/slices folder and in the what does it say:
                 <br />
                 <br />
                 <span className="text-[10px] xs:text-[15px]">
@@ -309,20 +304,21 @@ const Home = () => {
                 </span>
                 <br />
                 <br />
-                son las solicitudes desde tu frontend hacia tu backend, por
-                defecto se usa el servidor
+                are the requests from your frontend to your backend, for default
+                the server is used
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "local localhost"
                 <br />
-                y el puerto 3000. tendras que ajustarlo segun el servidor que
-                quieres usar y el puerto que configuraste en tu backend.
+                and port 3000. You will have to adjust it according to the
+                server you you want to use and the port you configured in your
+                backend.
                 <br />
                 <br />
-                En el terminal escribe:
+                In the terminal write:
                 <br />
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                cd "nombre de tu proyecto"
+                cd "name of your project"
                 <br />
                 cd frontend
                 <br />
@@ -337,20 +333,20 @@ const Home = () => {
             <br />
             ------
             <br />
-            LISTO!
+            READY!
             <br />
             ------
             <br />
-            Con estos pasos deberias tener la libreria fastprogramming
-            instalada, y tu proyecto base, con el backend y el frontend
-            funcionando. Si tienes algun problema con la instalacion y deseas
-            ayuda con algunos de estos pasos, no dudes en escribirme a:
+            With these steps you should have the fastprogramming library
+            installed, and your base project, with the backend and the frontend
+            working. If you have any problems with the installation and want
+            help with some of these steps, don't hesitate to write to me at:
             <br />
             <br />
             pevallos1965@gmail.com
             <br />
             <br />
-            EXITOS.........
+            SUCCESSFUL.........
             <br />
             <br />
             <div className="flex justify-center rounded-lg bg-black/80 m-4 lg:mx-32">
