@@ -44,7 +44,7 @@ export const Footer = () => {
             <p className="text-[10px]">
               Email:{" "}
               <span className="footer_name text-[10px]">
-                pevallos1965@gmail.com
+                pevallos@hotmail.com
               </span>
             </p>
             <p className="text-[10px]">Ecuador</p>

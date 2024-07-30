@@ -146,7 +146,7 @@ const Home = () => {
                   the community.
                   <br />
                   <br />
-                  Invite me to a coffee.
+                  🙏 Invite me to a coffee.
                   <br />
                   <br />
                 </p>
