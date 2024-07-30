@@ -14,29 +14,29 @@ const Home = () => {
           />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/70 rounded-md p-4 text-center text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl">
+            <div className="bg-white/70 rounded-md p-2 sm:p-4 text-center text-[8px] xs:text-[10px] md:text-[12px] lg:text-[18px] max-w-[95%]">
               <h1 className="font-bold z-10">
                 🎉 ¡WE PRESENT{" "}
                 <span className="text-violet-600">FASTPROGRAMMING</span> ! 🚀
               </h1>
-              <div className="mt-4">
+              <div className="mt-1 font-bold xs:mt-2 sm:mt-4">
                 Are you looking for a quick and
                 <br />
                 efficient way to start your next web project?
               </div>
-              <div className="mt-4">
+              <div className="mt-1 font-bold xs:mt-2 sm:mt-4">
                 You have the{" "}
                 <span className="text-blue-600">backend and frontend,</span>
                 <br />
                 fully functional and listed for use.
               </div>
-              <div className="mt-4">
+              <div className="mt-1 font-bold xs:mt-2 sm:mt-4">
                 With <span className="text-violet-600">FASTPROGRAMMING</span>,
                 you have everything you need
                 <br />
                 to create a complete website.
               </div>
-              <div className="mt-4">
+              <div className="mt-1 font-bold xs:mt-2 sm:mt-4">
                 <span className="text-violet-600">FASTPROGRAMMING</span> is an
                 easy-to-install library.
               </div>
