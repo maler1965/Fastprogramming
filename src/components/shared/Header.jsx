@@ -22,7 +22,7 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className="flex-grow text-base md:text-lg lg:text-xl">
+        <div className="flex-grow text-[10px] md:text-lg lg:text-xl">
           <div className="text-center text-white text-[10px] md:text-lg lg:text-xl">
             <p>FAST PROGRAMMING</p>
             <span className="font-bold"> FOR</span> BUSY PROGRAMMERS

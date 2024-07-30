@@ -17,7 +17,7 @@ export const Footer = () => {
           <p className=" text-blue-900 text-[20px] font-bold mx-4">
             In this project
           </p>
-          <small className="text-white mx-4">
+          <small className="text-white text-[10px] mx-4">
             We work to improve the lives of our users
           </small>
         </div>
